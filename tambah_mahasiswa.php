@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<htiml long="en">
+
+<head>
+    <meta chorset="UTF-8">
+    <title>Tambah Data Mahasiswa</title>
+</hed>
+
+<body>
+    <h2>Tambha Data Mahasiswa</h2>
+    <form action="proses_tambah.php" method="POST">
+        <label>Nama:</label>
+        <input type="text" name="nama" required><br>
+        
+        <label>NIM:</label>
+        <input type="text" name="nim" required><br>
+
+        <label>Email</label>
+        <input type="text" name="nomor" required><br>
+
+        <label>Jurusan</label>
+        <input type="text" name="jurusan" required><br>
+
+        <input type="submit" volue="Tambah">
+    </form>
+</body>
+
+</html>
